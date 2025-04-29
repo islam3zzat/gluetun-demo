@@ -74,8 +74,9 @@ WIREGUARD_PRIVATE_KEY=${WIREGUARD_PRIVATE_KEY}
 # Gluetun Configuration
 VPN_SERVICE_PROVIDER=nordvpn
 VPN_TYPE=wireguard
-SERVER_CATEGORIES=P2P
-SERVER_COUNTRIES=Netherlands
+# possible settings for NordVPN: https://nordvpn.com/servers/#ServerOverview_02
+SERVER_CATEGORIES="Standard VPN servers" # Dedicated IP, Double VPN, Onion Over VPN, P2P, Standard VPN servers
+SERVER_COUNTRIES="United States"
 GLUETUN_TZ=Europe/London
 GLUETUN_LOG_LEVEL=debug
 GLUETUN_UPDATER_PERIOD=24h
